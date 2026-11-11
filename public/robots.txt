@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /private/
+
+# Host
+Host: https://swimspot.example.com
+
+# Sitemaps
+Sitemap: https://swimspot.example.com/sitemap.xml
