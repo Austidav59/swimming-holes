@@ -19,7 +19,11 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     managedBy: 'Coconino National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service and Recreation.gov',
     featured: true,
-    imageAlt: 'Turquoise waters of Fossil Creek Waterfall surrounded by green canyon walls'
+    image: '/images/holes/fossil-creek-waterfall.jpg',
+    imageAlt: 'Turquoise pool and waterfall on Fossil Creek, with swimmers on the far bank',
+    imageCredit: 'Coconino National Forest',
+    imageLicense: 'CC0 1.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Waterfall_Trail_on_Fossil_Creek_(30099298955).jpg'
   },
   {
     id: 'slide-rock-state-park',
@@ -39,7 +43,11 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     managedBy: 'Arizona State Parks',
     sourceAttribution: 'Location and park information from Arizona State Parks',
     featured: true,
-    imageAlt: 'Swimmers sliding down natural red rock waterslide at Slide Rock State Park'
+    image: '/images/holes/slide-rock-state-park.jpg',
+    imageAlt: 'Oak Creek and red sandstone cliffs at Slide Rock State Park',
+    imageCredit: 'Don Graham',
+    imageLicense: 'CC BY-SA 2.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Slide_Rock,_Oak_Creek_Canyon,_AZ_9-15_(21721214731).jpg'
   },
   {
     id: 'grasshopper-point',
@@ -58,7 +66,11 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'Rocks can be slippery. Water depth varies significantly—always check depth before jumping. The current can be strong after rain. Glass containers are prohibited.',
     managedBy: 'Coconino National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service',
-    imageAlt: 'Peaceful swimming area at Grasshopper Point with red rock canyon walls'
+    image: '/images/holes/grasshopper-point.jpg',
+    imageAlt: 'Water cascading over red sandstone in Oak Creek Canyon near Grasshopper Point',
+    imageCredit: 'Don Graham',
+    imageLicense: 'CC BY-SA 2.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Oak_Creek_Cascades,_Sedona,_AZ_9-15_(22308818058).jpg'
   },
   {
     id: 'water-wheel-falls',
@@ -77,7 +89,11 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'Flash floods are a serious danger during monsoon season (July-September). If you see thunderstorms approaching, leave the canyon immediately. Rocks are slippery. Water depth varies. The trail can be rocky and uneven.',
     managedBy: 'Tonto National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service',
-    imageAlt: 'Multi-tiered waterfall cascading into swimming pools at Water Wheel Falls'
+    image: '/images/holes/water-wheel-falls.jpg',
+    imageAlt: 'Clear water and a small cascade on the East Verde River near Payson',
+    imageCredit: 'Mp3aa',
+    imageLicense: 'CC BY-SA 4.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Elk_in_East_Verde_River.jpg'
   },
   {
     id: 'bull-pen-east-verde',
@@ -96,7 +112,11 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'Flash flood danger exists during monsoon season. Check weather forecasts before visiting. Water depth can vary significantly. Rocks in the river can be slippery. Alcohol is prohibited.',
     managedBy: 'Tonto National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service',
-    imageAlt: 'Clear swimming pools along the East Verde River at Bull Pen'
+    image: '/images/holes/bull-pen-east-verde.jpg',
+    imageAlt: 'The East Verde River near Payson, lined with cottonwoods and grass',
+    imageCredit: 'Richard N Horne',
+    imageLicense: 'CC BY-SA 4.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:The_East_Verde_River_in_November.jpg'
   },
   {
     id: 'wet-beaver-creek',
@@ -115,7 +135,11 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'This is a designated wilderness area—pack out all trash and practice Leave No Trace principles. Flash floods can occur during monsoon season. Some pools are quite deep with limited visibility. The Crack requires swimming through a narrow passage.',
     managedBy: 'Coconino National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service',
-    imageAlt: 'Emerald pools in the red rock canyon of Wet Beaver Creek Wilderness'
+    image: '/images/holes/wet-beaver-creek.jpg',
+    imageAlt: 'Emerald pool in the red rock canyon of Wet Beaver Creek',
+    imageCredit: 'Smiles1479',
+    imageLicense: 'Public domain',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:WetBeaverCreek.JPG'
   },
   {
     id: 'tanque-verde-falls',
@@ -134,7 +158,11 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'This area has seen tragic accidents from cliff jumping and flash floods. Never jump into pools without thoroughly checking depth. Flash floods can occur rapidly during monsoon season—if the sky darkens or you hear thunder, leave immediately. Water quality can vary.',
     managedBy: 'Coronado National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service',
-    imageAlt: 'Tanque Verde Falls cascading over granite rocks with pools below'
+    image: '/images/holes/tanque-verde-falls.jpg',
+    imageAlt: 'Tanque Verde Canyon and the creek below the falls',
+    imageCredit: 'Letterfromthedesert',
+    imageLicense: 'CC0 1.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:TvCanyon.jpg'
   },
   {
     id: 'seven-falls',
@@ -154,7 +182,11 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     managedBy: 'Coronado National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service and Sabino Canyon Recreation Area',
     featured: true,
-    imageAlt: 'Tiered waterfalls flowing into granite pools at Seven Falls'
+    image: '/images/holes/seven-falls.jpg',
+    imageAlt: 'Tiered waterfalls flowing into a swimming pool at Seven Falls in Bear Canyon',
+    imageCredit: 'Jeff',
+    imageLicense: 'CC BY-SA 2.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Seven_Falls,_Bear_Canyon_AZ.jpg'
   },
   {
     id: 'cold-springs',
@@ -173,7 +205,11 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'Flash flood danger exists during monsoon season. The water is cold and can cause shock if entered quickly. Check weather conditions before visiting.',
     managedBy: 'Tonto National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service',
-    imageAlt: 'Crystal clear spring-fed pools at Cold Springs near Pine Arizona'
+    image: '/images/holes/cold-springs.jpg',
+    imageAlt: 'Calm water on the East Verde River near Payson',
+    imageCredit: 'Richard N Horne',
+    imageLicense: 'CC BY-SA 4.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:The_East_Verde_River_flows_thru_the_East_Verde_Estates_northwest_of_Payson.jpg'
   },
   {
     id: 'romero-pools',
@@ -192,7 +228,11 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'The hike is exposed with little shade—bring plenty of water and sun protection. Flash floods can occur during monsoon season. Check water levels before making the hike as pools may be dry.',
     managedBy: 'Arizona State Parks',
     sourceAttribution: 'Location and park information from Arizona State Parks',
-    imageAlt: 'Hikers at the seasonal swimming pools at Romero Pools in Catalina State Park'
+    image: '/images/holes/romero-pools.jpg',
+    imageAlt: 'A clear seasonal pool among boulders in Romero Canyon',
+    imageCredit: 'cogdogblog',
+    imageLicense: 'CC BY 2.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Romero_Canyon_Pool.jpg'
   },
   {
     id: 'christopher-creek',
@@ -211,7 +251,11 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'Flash floods can occur during monsoon season. Stream levels can rise quickly after thunderstorms. Some areas have strong current after runoff.',
     managedBy: 'Tonto National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service',
-    imageAlt: 'Shaded swimming holes along Christopher Creek in the pine forest'
+    image: '/images/holes/christopher-creek.jpg',
+    imageAlt: 'Clear pool on Haigler Creek, a nearby Mogollon Rim swimming hole',
+    imageCredit: 'chuckreynolds',
+    imageLicense: 'CC BY-SA 3.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Haigler_Creek_Az_-_panoramio_-_chuckreynolds_(3).jpg'
   },
   {
     id: 'ellison-creek',
@@ -230,6 +274,10 @@ export const arizonaSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'Flash flood danger during monsoon season. Do not enter the creek if thunderstorms threaten. Slippery rocks are common.',
     managedBy: 'Tonto National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service',
-    imageAlt: 'Swimming hole and small waterfall at Ellison Creek'
+    image: '/images/holes/ellison-creek.jpg',
+    imageAlt: 'East Clear Creek in a pine canyon below the Mogollon Rim, near Ellison Creek',
+    imageCredit: 'Brady Smith / Coconino National Forest',
+    imageLicense: 'CC BY-SA 2.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:East_Clear_Creek_(4017084074).jpg'
   }
 ];

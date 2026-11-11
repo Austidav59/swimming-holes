@@ -16,8 +16,20 @@ export interface SwimmingHole {
   managedBy?: string;
   sourceAttribution?: string;
   featured?: boolean;
+  image?: string;
   imageAlt?: string;
+  imageCredit?: string;
+  imageLicense?: string;
+  imageSource?: string;
 }
+
+export const IMAGE_LICENSE_URLS: Record<string, string> = {
+  'CC0 1.0': 'https://creativecommons.org/publicdomain/zero/1.0/',
+  'CC BY 2.0': 'https://creativecommons.org/licenses/by/2.0/',
+  'CC BY-SA 2.0': 'https://creativecommons.org/licenses/by-sa/2.0/',
+  'CC BY-SA 3.0': 'https://creativecommons.org/licenses/by-sa/3.0/',
+  'CC BY-SA 4.0': 'https://creativecommons.org/licenses/by-sa/4.0/',
+};
 
 export type StateCode = 'AZ' | 'UT';
 
@@ -50,6 +62,11 @@ export interface StateInfo {
   slug: string;
   description: string;
   metaDescription: string;
+  image?: string;
+  imageAlt?: string;
+  imageCredit?: string;
+  imageLicense?: string;
+  imageSource?: string;
 }
 
 export const STATES: Record<StateCode, StateInfo> = {
@@ -58,14 +75,24 @@ export const STATES: Record<StateCode, StateInfo> = {
     name: 'Arizona',
     slug: 'arizona',
     description: 'Arizona offers surprising aquatic escapes from its desert heat. From the red rock pools of Sedona to the cool mountain streams near Flagstaff and the iconic waterfalls of the Havasupai reservation, the Grand Canyon State features diverse swimming holes fed by snowmelt, springs, and perennial desert streams.',
-    metaDescription: 'Discover the best swimming holes in Arizona. From Fossil Creek to Sedona\'s Oak Creek, find natural swimming spots with directions, tips, and local info.'
+    metaDescription: 'Discover the best swimming holes in Arizona. From Fossil Creek to Sedona\'s Oak Creek, find natural swimming spots with directions, tips, and local info.',
+    image: '/images/states/arizona.png',
+    imageAlt: 'Shaded relief map showing the outline of Arizona',
+    imageCredit: 'SANtosito',
+    imageLicense: 'CC BY-SA 4.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:USA_Arizona_relief_location_map.svg',
   },
   UT: {
     code: 'UT',
     name: 'Utah',
     slug: 'utah',
     description: 'Utah\'s dramatic canyon country hides some of the most scenic swimming holes in the American Southwest. Crystal-clear rivers carve through sandstone slot canyons, natural springs emerge in remote desert locations, and mountain reservoirs offer cool summer relief. Many of these spots require hiking to reach, rewarding visitors with uncrowded natural pools.',
-    metaDescription: 'Find the best swimming holes in Utah. Explore natural pools, slot canyon streams, and mountain swimming spots with detailed access information and tips.'
+    metaDescription: 'Find the best swimming holes in Utah. Explore natural pools, slot canyon streams, and mountain swimming spots with detailed access information and tips.',
+    image: '/images/states/utah.png',
+    imageAlt: 'Shaded relief map showing the outline of Utah',
+    imageCredit: 'SANtosito',
+    imageLicense: 'CC BY-SA 4.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:USA_Utah_relief_location_map.svg',
   }
 };
 

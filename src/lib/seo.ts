@@ -62,6 +62,7 @@ export function generateSwimmingHoleMetadata(hole: SwimmingHole): Metadata {
     title,
     description,
     path: `/swimming-holes/${hole.slug}`,
+    image: hole.image ? `${SITE_URL}${hole.image}` : undefined,
   });
 }
 
@@ -82,6 +83,7 @@ export function generateSwimmingHoleJsonLd(hole: SwimmingHole) {
     '@type': 'TouristAttraction',
     name: hole.name,
     description: hole.description,
+    ...(hole.image && { image: `${SITE_URL}${hole.image}` }),
     geo: {
       '@type': 'GeoCoordinates',
       latitude: hole.latitude,

@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { StateInfo, getStateSwimmingHoleCount } from '@/data';
+import { PhotoCredit } from './PhotoCredit';
 
 interface StateCardProps {
   state: StateInfo;
@@ -11,11 +13,16 @@ export function StateCard({ state }: StateCardProps) {
   return (
     <article className="group bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-200 dark:border-gray-700 overflow-hidden">
       <Link href={`/states/${state.slug}`} className="block">
-        <div className="relative h-40 bg-gradient-to-br from-blue-500 to-cyan-600 flex items-center justify-center">
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-          <span className="relative text-white text-5xl font-bold opacity-80">
-            {state.code}
-          </span>
+        <div className="relative h-64 bg-[#f3efe4] dark:bg-stone-900">
+          {state.image && (
+            <Image
+              src={state.image}
+              alt={state.imageAlt || `Map of ${state.name}`}
+              fill
+              className="object-contain p-3"
+              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+            />
+          )}
         </div>
 
         <div className="p-4">
@@ -30,6 +37,10 @@ export function StateCard({ state }: StateCardProps) {
           <p className="mt-2 text-sm text-gray-600 dark:text-gray-400 line-clamp-3">
             {state.description.slice(0, 150)}...
           </p>
+
+          {state.image && (
+            <PhotoCredit hole={state} linked={false} label="Map" className="mt-3 text-xs text-gray-500 dark:text-gray-400" />
+          )}
         </div>
       </Link>
     </article>

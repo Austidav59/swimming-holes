@@ -19,7 +19,11 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     managedBy: 'Uinta-Wasatch-Cache National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service',
     featured: true,
-    imageAlt: 'Natural hot spring pools with steam rising alongside waterfall at Fifth Water'
+    image: '/images/holes/fifth-water-hot-springs.jpg',
+    imageAlt: 'Travertine pools and small waterfalls at Fifth Water Hot Springs',
+    imageCredit: 'The Dye Clan',
+    imageLicense: 'CC BY-SA 3.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:5th_Water_Hotsprings_dyeclan.com_-_panoramio.jpg'
   },
   {
     id: 'toquerville-falls',
@@ -39,7 +43,11 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     managedBy: 'Bureau of Land Management (BLM)',
     sourceAttribution: 'Location data from Bureau of Land Management',
     featured: true,
-    imageAlt: 'Toquerville Falls cascading over red sandstone into a swimming pool'
+    image: '/images/holes/toquerville-falls.jpg',
+    imageAlt: 'Toquerville Falls cascading over red sandstone into a pool',
+    imageCredit: 'The Greater Southwestern Exploration Company',
+    imageLicense: 'CC BY 2.0',
+    imageSource: 'https://www.flickr.com/photos/29484524@N00/52666253075'
   },
   {
     id: 'gunlock-reservoir',
@@ -58,7 +66,11 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'No lifeguards on duty. Check water levels before planning swim activities as the reservoir level varies. Watch for boats in swimming areas. The sun is intense—use sun protection.',
     managedBy: 'Utah State Parks',
     sourceAttribution: 'Location and park information from Utah State Parks',
-    imageAlt: 'Blue waters of Gunlock Reservoir surrounded by red rock canyon walls'
+    image: '/images/holes/gunlock-reservoir.jpg',
+    imageAlt: 'Gunlock Reservoir with red cliffs along the far shore',
+    imageCredit: 'Thure Johnson',
+    imageLicense: 'CC BY 2.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Gunlock_State_Park.jpg'
   },
   {
     id: 'lower-calf-creek-falls',
@@ -78,7 +90,11 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     managedBy: 'Grand Staircase-Escalante National Monument, Bureau of Land Management',
     sourceAttribution: 'Location data from Bureau of Land Management',
     featured: true,
-    imageAlt: 'Majestic 126-foot Lower Calf Creek Falls plunging into a swimming pool'
+    image: '/images/holes/lower-calf-creek-falls.jpg',
+    imageAlt: 'Lower Calf Creek Falls plunging down a sandstone cliff into a pool',
+    imageCredit: 'Scott Catron',
+    imageLicense: 'CC BY-SA 3.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Calf_Creek_falls.jpg'
   },
   {
     id: 'red-cliffs-recreation-area',
@@ -97,7 +113,11 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'Flash floods can occur during monsoon season—avoid the creek when storms threaten. Some areas have slippery rocks. The region is home to desert tortoise—a protected species—observe from distance.',
     managedBy: 'Bureau of Land Management (BLM)',
     sourceAttribution: 'Location data from Bureau of Land Management',
-    imageAlt: 'Swimming hole in Quail Creek surrounded by red sandstone cliffs'
+    image: '/images/holes/red-cliffs-recreation-area.jpg',
+    imageAlt: 'Red sandstone cliffs in Cottonwood Canyon, inside the Red Cliffs National Conservation Area',
+    imageCredit: 'Bureau of Land Management',
+    imageLicense: 'CC BY 2.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Cottonwood_Canyon_Wilderness_(15101826616).jpg'
   },
   {
     id: 'mill-creek-swimming-hole',
@@ -116,7 +136,11 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'Water levels vary seasonally. Check depth before jumping or diving. Watch for broken glass or debris that may be present. Supervise children closely.',
     managedBy: 'City of Moab',
     sourceAttribution: 'Location data from City of Moab Parks and Recreation',
-    imageAlt: 'Local swimming spot along Mill Creek in Moab with cottonwood shade'
+    image: '/images/holes/mill-creek-swimming-hole.jpg',
+    imageAlt: 'A waterfall dropping into a pool in Mill Creek canyon near Moab',
+    imageCredit: 'Bureau of Land Management',
+    imageLicense: 'Public domain',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Mill_Creek_Area_(28414008115).jpg'
   },
   {
     id: 'santa-clara-river-reserve',
@@ -135,7 +159,11 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'Water depth is generally shallow but can vary. This is a nature preserve—stay on designated trails. Flash flood risk exists during storm season.',
     managedBy: 'Town of Ivins / Nature Conservancy',
     sourceAttribution: 'Location data from local government sources',
-    imageAlt: 'Swimming area along Santa Clara River shaded by cottonwood trees'
+    image: '/images/holes/santa-clara-river-reserve.jpg',
+    imageAlt: 'Cottonwoods along the Santa Clara River beneath sandstone cliffs',
+    imageCredit: 'The Dye Clan',
+    imageLicense: 'CC BY-SA 3.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Cliffs_near_the_Santa_Clara_river_dyeclan.com_-_panoramio.jpg'
   },
   {
     id: 'escalante-river-swimming-holes',
@@ -154,7 +182,11 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'Flash floods are extremely dangerous in slot canyons—never enter when rain threatens anywhere in the watershed. Many areas are remote—carry ample water, food, and navigation aids. Quicksand exists in some areas.',
     managedBy: 'Grand Staircase-Escalante National Monument, Bureau of Land Management',
     sourceAttribution: 'Location data from Bureau of Land Management',
-    imageAlt: 'Swimming pool in the Escalante River surrounded by canyon walls'
+    image: '/images/holes/escalante-river-swimming-holes.jpg',
+    imageAlt: 'The Escalante River flowing through a red rock canyon',
+    imageCredit: 'Paxson Woelber',
+    imageLicense: 'CC BY 2.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Cori_packrafting_the_Escalante_River,_Utah_(34900058925).jpg'
   },
   {
     id: 'upper-provo-river-falls',
@@ -173,7 +205,11 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'Mountain water is very cold—enter gradually. Rocks are slippery. The elevation may affect some visitors. Check road conditions as the highway may close for weather even in summer.',
     managedBy: 'Uinta-Wasatch-Cache National Forest, USDA Forest Service',
     sourceAttribution: 'Location data from USDA Forest Service',
-    imageAlt: 'Mountain waterfall and pool along the Upper Provo River in the Uintas'
+    image: '/images/holes/upper-provo-river-falls.jpg',
+    imageAlt: 'A stepped waterfall and pool on the Upper Provo River',
+    imageCredit: 'outkast9821',
+    imageLicense: 'CC BY 2.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Upper_Provo_River_Utah.jpg'
   },
   {
     id: 'sand-hollow-reservoir',
@@ -193,7 +229,11 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     managedBy: 'Utah State Parks',
     sourceAttribution: 'Location and park information from Utah State Parks',
     featured: true,
-    imageAlt: 'Blue waters of Sand Hollow Reservoir against red sand dunes'
+    image: '/images/holes/sand-hollow-reservoir.jpg',
+    imageAlt: 'Sand Hollow Reservoir seen from the red sand dunes',
+    imageCredit: 'RhinoRider',
+    imageLicense: 'CC BY-SA 3.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Sand_hollow_-_panoramio.jpg'
   },
   {
     id: 'moab-swimming-hole',
@@ -212,7 +252,11 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'The Colorado River has a strong current—swimming ability is essential. Never swim during high water or spring runoff. Check conditions with local outfitters. Children should be closely supervised. Cold water even in summer.',
     managedBy: 'City of Moab / Grand County',
     sourceAttribution: 'Location data from local government sources',
-    imageAlt: 'Sandy beach area along the Colorado River at Lions Park with canyon walls'
+    image: '/images/holes/lions-park-colorado-river.jpg',
+    imageAlt: 'The Colorado River at the highway bridge beside Lions Park in Moab',
+    imageCredit: 'DXR',
+    imageLicense: 'CC BY-SA 4.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Bridge_of_US_191_crossing_Colorado_river_near_Moab,_East_view_20110816_2.jpg'
   },
   {
     id: 'quail-creek-state-park',
@@ -231,6 +275,10 @@ export const utahSwimmingHoles: SwimmingHole[] = [
     safetyNotes: 'No lifeguards on duty. Watch for boat traffic. The sun is intense—sun protection is essential. Stay hydrated in the desert heat.',
     managedBy: 'Utah State Parks',
     sourceAttribution: 'Location and park information from Utah State Parks',
-    imageAlt: 'Warm waters of Quail Creek Reservoir with desert landscape'
+    image: '/images/holes/quail-creek-state-park.jpg',
+    imageAlt: 'Calm, tree-lined water at Quail Creek Reservoir',
+    imageCredit: 'Fredlyfish4',
+    imageLicense: 'CC BY-SA 4.0',
+    imageSource: 'https://commons.wikimedia.org/wiki/File:Quail_Creek_Reservoir.JPG'
   }
 ];

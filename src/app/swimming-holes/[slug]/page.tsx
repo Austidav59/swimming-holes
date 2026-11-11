@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import { PhotoCredit } from '@/components/PhotoCredit';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { SwimmingHoleCard } from '@/components/SwimmingHoleCard';
 import { MapPlaceholder, DirectionsLink } from '@/components/MapPlaceholder';
@@ -107,6 +109,24 @@ export default async function SwimmingHolePage({ params }: PageProps) {
             </div>
           </div>
         </header>
+
+        {hole.image && (
+          <figure className="mb-8">
+            <div className="relative aspect-[16/9] overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800">
+              <Image
+                src={hole.image}
+                alt={hole.imageAlt || hole.name}
+                fill
+                priority
+                className="object-cover"
+                sizes="(min-width: 1280px) 1200px, 100vw"
+              />
+            </div>
+            <figcaption className="mt-2">
+              <PhotoCredit hole={hole} className="text-xs text-gray-500 dark:text-gray-400" />
+            </figcaption>
+          </figure>
+        )}
 
         <div className="grid gap-8 lg:grid-cols-3">
           {/* Main Content */}

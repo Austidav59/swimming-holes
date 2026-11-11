@@ -1,6 +1,8 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { SearchBox } from '@/components/SearchBox';
+import { PhotoCredit } from '@/components/PhotoCredit';
 import { SwimmingHoleCard } from '@/components/SwimmingHoleCard';
 import { StateCard } from '@/components/StateCard';
 import { AdSlot } from '@/components/AdSense';
@@ -21,14 +23,22 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-600 via-cyan-600 to-teal-500 text-white">
-        <div className="absolute inset-0 bg-black/20" />
+      <section className="relative overflow-hidden bg-cyan-800 text-white">
+        <Image
+          src="/images/holes/fossil-creek-waterfall.jpg"
+          alt="Turquoise swimming hole and waterfall at Fossil Creek"
+          fill
+          priority
+          className="object-cover"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/45 to-black/65" />
         <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8 lg:py-32">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
               Discover Natural Swimming Holes
             </h1>
-            <p className="mx-auto mt-6 max-w-2xl text-lg sm:text-xl text-blue-100">
+            <p className="mx-auto mt-6 max-w-2xl text-lg sm:text-xl text-white/90">
               Find the best swimming holes, waterfalls, and natural pools across America. 
               Your guide to hidden swimming spots with directions, tips, and local information.
             </p>
@@ -54,6 +64,15 @@ export default function HomePage() {
             </div>
           </div>
         </div>
+        <PhotoCredit
+          hole={{
+            image: '/images/holes/fossil-creek-waterfall.jpg',
+            imageCredit: 'Coconino National Forest',
+            imageLicense: 'CC0 1.0',
+            imageSource: 'https://commons.wikimedia.org/wiki/File:Waterfall_Trail_on_Fossil_Creek_(30099298955).jpg',
+          }}
+          className="absolute bottom-3 left-4 right-4 z-10 text-center text-xs text-white/80"
+        />
       </section>
 
       {/* Featured Swimming Holes */}

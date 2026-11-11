@@ -1,5 +1,7 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import { SwimmingHole, WATER_TYPE_LABELS } from '@/data';
+import { PhotoCredit } from './PhotoCredit';
 
 interface SwimmingHoleCardProps {
   hole: SwimmingHole;
@@ -11,21 +13,31 @@ export function SwimmingHoleCard({ hole, showState = false }: SwimmingHoleCardPr
     <article className="group bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-200 dark:border-gray-700 overflow-hidden">
       <Link href={`/swimming-holes/${hole.slug}`} className="block">
         <div className="relative h-48 bg-gradient-to-br from-blue-100 to-cyan-100 dark:from-blue-900 dark:to-cyan-900 flex items-center justify-center">
-          <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-          <svg
-            className="h-16 w-16 text-blue-500/50"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1}
-            stroke="currentColor"
-            aria-hidden="true"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"
+          {hole.image ? (
+            <Image
+              src={hole.image}
+              alt={hole.imageAlt || hole.name}
+              fill
+              className="object-cover"
+              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
             />
-          </svg>
+          ) : (
+            <svg
+              className="h-16 w-16 text-blue-500/50"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1}
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"
+              />
+            </svg>
+          )}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
           {hole.featured && (
             <span className="absolute top-3 left-3 bg-yellow-400 text-yellow-900 text-xs font-semibold px-2 py-1 rounded-full">
               Featured
@@ -59,6 +71,10 @@ export function SwimmingHoleCard({ hole, showState = false }: SwimmingHoleCardPr
           <p className="mt-3 text-sm text-gray-700 dark:text-gray-300 line-clamp-3">
             {hole.description.slice(0, 150)}...
           </p>
+
+          {hole.image && (
+            <PhotoCredit hole={hole} linked={false} className="mt-3 text-xs text-gray-500 dark:text-gray-400" />
+          )}
 
           {hole.amenities.length > 0 && (
             <div className="mt-3 flex flex-wrap gap-1">
