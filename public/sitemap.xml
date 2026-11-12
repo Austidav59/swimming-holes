@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url><loc>https://swimspot.example.com</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
+<url><loc>https://swimspot.example.com/about</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/contact</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/privacy</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/states</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url><loc>https://swimspot.example.com/states/arizona</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://swimspot.example.com/states/utah</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/bull-pen-east-verde</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/christopher-creek</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/cold-springs</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/ellison-creek</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/escalante-river-swimming-holes</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/fifth-water-hot-springs</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/fossil-creek-waterfall</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/grasshopper-point</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/gunlock-reservoir</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/lions-park-colorado-river</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/lower-calf-creek-falls</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/mill-creek-swimming-hole</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/quail-creek-state-park</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/red-cliffs-recreation-area</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/romero-pools</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/sand-hollow-reservoir</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/santa-clara-river-reserve</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/seven-falls</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/slide-rock-state-park</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/tanque-verde-falls</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/toquerville-falls</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/upper-provo-river-falls</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/water-wheel-falls</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/swimming-holes/wet-beaver-creek</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<url><loc>https://swimspot.example.com/terms</loc><lastmod>2026-11-11T05:16:46.613Z</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
+</urlset>
